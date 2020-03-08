@@ -16,6 +16,7 @@ import java.util.Set;
  */
 public class IhrmRealm extends AuthorizingRealm {
 
+    @Override
     public void setName(String name) {
         super.setName("ihrmRealm");
     }
